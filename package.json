@@ -1,18 +1,19 @@
 {
-  "name": "clean-after-action",
-  "version": "1.2.1",
+  "name": "gha-workspace-cleanup",
+  "version": "1.2.2",
   "main": "index.js",
   "author": "Michael Medin <michael@medin.name>",
   "contributors": [
-    "Frank Blechschmidt <contact@frank-blechschmidt.com>"
+    "Frank Blechschmidt <contact@frank-blechschmidt.com>",
+    "Jan Schürkamp <gamestrap@trappedgames.de>"
   ],
   "license": "MIT",
   "dependencies": {
     "@actions/core": "1.10.0",
-    "@actions/io": "1.1.2"
+    "@actions/io": "1.1.3"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/FraBle/clean-after-action"
+    "url": "https://github.com/gamestrap/gha-workspace-cleanup"
   }
 }
