@@ -10,6 +10,6 @@ inputs:
     default: false
     type: boolean
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'index.js'
   post: 'cleanup.js'
